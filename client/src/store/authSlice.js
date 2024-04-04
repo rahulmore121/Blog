@@ -16,9 +16,6 @@ const authSlice = createSlice({
     logout(state) {
       (state.status = false), (state.userdata = null);
     },
-    togglePersist(state) {
-      state.persist = !state.persist;
-    },
   },
 });
 
