@@ -1,0 +1,16 @@
+.post-main {
+  width: 450px;
+  height: 200px;
+  display: flex;
+  border-radius: 18px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.post-img {
+  flex: 0.7;
+
+  padding: 10px;
+}
+.post-sec {
+  padding: 10px;
+  flex: 1;
+}
